@@ -12,6 +12,7 @@ A professional test automation framework built with Java, Selenium WebDriver, an
 - Maven
 
 ## Framework Structure
+```
 src/main/java
 ├── config/ — ConfigReader reads config.properties
 ├── pages/ — Page Object classes
@@ -24,7 +25,7 @@ src/test/java
 src/test/resources
 ├── config.properties — browser, URL, credentials
 └── testng.xml — test suite configuration
-
+```
 ## How to Run
 1. Clone the repository
 2. Open in IntelliJ IDEA
